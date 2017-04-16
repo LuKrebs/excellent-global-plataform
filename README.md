@@ -6,6 +6,6 @@
 
 <p>If you want to see it working, you can find it <a href="https://codepen.io/LuKrebs/full/ybNPJo/">here</a>. I also have put an image below, so you can see what it looks like.</p>
 
-<img src="" />
+<img src="https://github.com/LuKrebs/excellent-global-plataform/blob/master/images/githubimage.png" />
 
 

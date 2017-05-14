@@ -79,26 +79,10 @@ body {
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
-/*  div metodologia */
-.container-fluid #methodology {
-  background-color: rgb(254, 195, 55);
-  height: 80px;
-}
-.container-fluid #methodology .col-lg-12 {
-  line-height: 70px;
-}
-.container-fluid #methodology .col-lg-12 h1 {
-  color: black;
-  font-weight: 600;
-  vertical-align: middle;
-}
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
   margin-bottom: 20px;
   text-align: center;
-}
-.marketing .first {
-  background-color: rgb(254, 195, 55);
 }
 .marketing h2 {
   font-weight: normal;
@@ -113,6 +97,10 @@ body {
   margin-left: 10px;
   color: rgb(254, 195, 55);
 }
+.marketing .row .col-lg-4 img {
+  width: 150px;
+  height: 150px;
+}
 
 
 /* Featurettes
@@ -122,6 +110,9 @@ body {
 }
 .featurette .test {
   margin-top: -30px;
+}
+.featurette .col-md-7 p.lead {
+  color: white;
 }
 
 

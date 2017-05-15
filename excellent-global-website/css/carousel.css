@@ -3,7 +3,6 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-bottom: 40px;
   color: #5a5a5a;
   font-family: 'Open Sans', sans-serif;
   background-color: black;
@@ -117,7 +116,7 @@ body {
   background-color: rgb(254, 195, 55);
   height: 70px;
   margin-bottom: 40px;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 #depoimentos .row .col-lg-12 h2 {
   color: black;
@@ -154,6 +153,152 @@ body {
   color: rgb(254, 195, 55);
 }
 
+/* aula-experimental and contact*/
+#container-test {
+  margin-bottom: 60px;
+}
+#informations {
+  margin-top: 40px;
+}
+
+#aula-experimental {
+  background-color: rgb(254, 195, 55);
+  height: 70px;
+  margin-bottom: 40px;
+  margin-top: 60px;
+}
+#aula-experimental .row .col-lg-12 h2 {
+  color: black;
+  font-weight: 600;
+}
+
+.marketing .row .col-md-12 p {
+  color: white;
+  font-weight: 900;
+  font-size: 1.5em;
+  margin-left: 40px;
+  
+}
+
+.marketing .row .col-md-12 p#ultimo {
+  color: white;
+  font-weight: 900;
+  font-size: 1.5em;
+  margin-left: 95px;
+}
+
+.marketing .row .col-md-12 p i {
+  color: rgb(254, 195, 55);
+  font-size: 1.7em;
+  margin-top: 10px;
+}
+
+.marketing .row .col-md-6 form  {
+  color: white;
+  font-weight: 900;
+  font-size: 1.2em;
+  border: 3px solid rgb(254, 195, 55);
+  padding: 15px;
+}
+.marketing .row .col-md-6 form  input {
+  border-radius: 0;
+  border: 2px solid rgb(254, 195, 55);
+  background-color: black;
+}
+.marketing .row .col-md-6 form  textarea {
+  border-radius: 0;
+  border: 2px solid rgb(254, 195, 55);
+  background-color: black;
+}
+.marketing .row .col-md-6 form  textarea:focus {
+  background-color: rgb(254, 195, 55);
+  border: 2px solid black;
+  box-shadow: none;
+}
+
+.marketing .row .col-md-6 input:focus {
+  box-shadow: none;
+  background-color: rgb(254, 195, 55);
+  border: 2px solid black;
+}
+.marketing .row .col-md-6 input.btn {
+  margin-top: 20px;
+  background-color: rgb(254, 195, 55);
+  color: black;
+  font-size: 1em;
+  font-weight: 900;
+  border-radius: 0;
+  border: 2px solid rgb(254, 195, 55);
+}
+.marketing .row .col-md-6 input.btn:hover {
+  color: rgb(254, 195, 55);
+  background-color: black;
+  transition: 0.5s;
+}
+
+/*  maps */
+
+div.maps {
+  background-color: rgb(254, 195, 55);
+  padding: 30px; 
+  text-align: center;
+}
+
+/* footer */
+
+.footer {
+  height: 80px;
+  background-color: black;
+}
+
+.footer .container .pull-left ul a {
+  text-decoration: none;
+}
+
+.footer .container .pull-left ul a li {
+  list-style: none;
+  display: inline-block;
+}
+
+.footer .container .pull-left ul a li i {
+  color: white;
+  margin-top: 15px;
+  font-size: 40px;
+  margin-right: 15px;
+  padding: 5px 5px;
+}
+
+.footer .container .pull-left ul a:hover li i {
+  color: black;
+  background-color: rgb(254, 195, 55);
+  border-radius: 5px;
+  transition: 0.7s;
+}
+
+.footer .container .pull-right p {
+  margin-top: 30px;
+  color: white;
+
+}
+
+.footer .container .pull-right p a {
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px solid black;
+  border-top: 2px solid transparent;
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+  margin-left: 5px;
+  padding: 2px 4px;
+  font-weight: 900;
+  transition: 0.3s;
+}
+
+.footer .container .pull-right p a:hover {
+  border: 2px solid white;
+  
+}
+
 
 
 /* RESPONSIVE CSS
@@ -188,7 +333,7 @@ body {
   .featurette-heading {
     font-size: 50px;
   }
-  
+
 }
 
 @media (min-width: 992px) {

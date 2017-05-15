@@ -34,6 +34,9 @@ function changeReviewThreeUp() {
 }
 
 function changeReviewThreeDown() {
+		document.getElementById('right-arrow').style.backgroundColor = "black";
+		document.getElementById('right-arrow').style.color = "rgb(254, 195, 55)";
+
 	if (aux > 0) {
 		document.getElementById('right-arrow').onmouseover = function() {
 			this.style.backgroundColor = 'rgb(254, 195, 55)';

@@ -54,18 +54,12 @@
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Metodologia</a></li>
-                <li><a href="#about">Contato</a></li>
-                <li><a href="#contact">Depoimentos</a></li>
+                <li><a href="#about">Depoimentos</a></li>
+                <li><a href="#contact">Contato</a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Área do aluno <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <li><a href="#">Login</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
                   </ul>
                 </li>
               </ul>
@@ -170,18 +164,86 @@
       </div> <!-- /.row -->
     </div>
 
+    <div class="container-fluid" id="aula-experimental">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="text-center">Agende sua aula experimental</h2>
+        </div>
+      </div>
+    </div>
 
-      <!-- FOOTER -->
-    <div class="container">
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2017 Excellent Global Tigabi</p>
-        <p><a href="#">Privacy</a></p>
-      </footer>
+    <div class="container marketing" id="container-test">
+      <div class="row">
+        <div class="col-md-6" id="informations">
+          <div class="row">
+            <div class="col-md-12">
+              <p ><i style="margin-right: 30px;" class="fa fa-map-marker" aria-hidden="true"></i> Rua Cel Frederico Martins, 353 - Tibagi, PR</p>
+              <p ><i style="margin-right: 30px;" class="fa fa-phone" aria-hidden="true"></i> Telefones: (42) 9 9144-1622</p>
+              <p ><i class="fa fa-envelope" style="margin-right: 30px;" aria-hidden="true"></i> contato@egtibagi.com.br</p>
+              <p ><i style="margin-right: 30px;" class="fa fa-clock-o" aria-hidden="true"></i> Horário de Funcionamento:</p>
+              <p  id="ultimo"> Segunda a sexta das 08:00 às 18:30</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <form action="https://formspree.io/contato@egtibagi.com.br" method="POST">
+            <div class="row">
+              <div class="col-xs-12">
+                <p>Nome:</p>
+                <input class="form-control" type="text" required name="Nome" style="margin-top: 10px;">
+              </div>
+            </div>
+            <p style="margin-top: 10px;">O que você precisa?</p>
+            <textarea class="form-control" rows="4" name="mensagem" type="text"></textarea>
+            <div class="text-center">
+              <p style="margin-top: 10px;">Como você prefere que retornemos?</p>
+              <div class="col-xs-6">
+                E-mail:
+                <input class="form-control" type="email" required name="Email">
+              </div>
+              <div class="col-xs-6">
+              Telefone:
+                <input class="form-control" required name="Telefone">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 text-center">
+                <input class="btn btn-default" type="submit" value="Enviar">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid maps">
+      <div class="row">
+        <div class="col-md-12">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3630.2400445937938!2d-50.414875149798426!3d-24.511774903180438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e9beb70744f23f%3A0x7a19d403070674!2sR.+Cel.+Frederico+Martins%2C+353%2C+Tibagi+-+PR%2C+84300-000!5e0!3m2!1sen!2sbr!4v1494885513689" width="90%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
     </div>
 
 
-
+      <!-- FOOTER -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-xs-6">
+            <div class="pull-left">
+              <ul>
+                <a href="https://www.facebook.com/excellentglobaltibagi/" target="_blank"><li><i class="fa fa-facebook-square" aria-hidden="true"></i></li></a>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-xs-6">
+            <div class="pull-right">
+              <p id='footer-text'><i class="fa fa-copyright" aria-hidden="true"></i> powered by <a href="http://lucianok.tech" target="_blank">Luciano Krebs</a></p>
+            </div>
+          </div>
+        </div>
+      </div> <!--end: container -->
+    </div> <!--end: footer -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

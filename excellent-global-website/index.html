@@ -32,6 +32,7 @@
     <link href="css/carousel.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -101,11 +102,11 @@
     <div class="container marketing">
       <!-- START THE FEATURETTES -->
       <div class="row featurette">
-        <div class="col-md-7 test">
+        <div class="col-md-7 col-sm-7 test">
           <h2 class="featurette-heading">Focamos em conversação. <span class="text-muted">É assim que se aprende.</span></h2>
           <p class="lead"> Aprenda desde a primeira aula a pronûncia correta do alfabeto fonêtico americano. Somos especialistas em formar alunos com pronûncia perfeita.</p>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-5 col-sm-5">
           <img class="featurette-image img-responsive center-block test" src="img/conversation.jpg" alt="Conversation Excellent Global">
         </div>
       </div>
@@ -126,15 +127,16 @@
       <hr class="featurette-divider">
 
       <div class="row featurette">
-        <div class="col-md-7 lead-two">
+        <div class="col-md-7 col-sm-7 lead-two">
           <h2 class="featurette-heading">Pratique em qualquer lugar, qualquer hora: <span class="text-muted">Plataforma online e exclusiva para alunos</span></h2>
-          <p class="lead">Com nossa plataforma online você é capaz de assitir aluas novamente, acessar o material trabalho em sala, trabalhar conversação online e ter acesso a recursos extrar para acelerar seu aprendizado.</p>
+          <p class="lead">Com nossa plataforma online, você é capaz de reassitir aulas, trabalhar conversação online e acessar recursos extras para acelerar seu aprendizado.</p>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-5 col-sm-5">
           <img class="featurette-image img-responsive center-block" src="img/study2.jpg" alt="Generic placeholder image">
         </div>
       </div><!-- /END THE FEATURETTES -->
     </div><!-- /.row -->
+
 
     <div class="container-fluid" id="depoimentos">
       <div class="row">
@@ -149,26 +151,24 @@
     <div class="container marketing">
       <!-- Three columns of text below the carousel -->
       <div class="row">
-        <div class="col-lg-4">
-          <img class="img-thumbnail img-circle" src="img/lumari.jpg" alt="Generic placeholder image">
-          <h4>Mariana Amaral, Ponta Grossa - Paraná</h4>
-          <p style="color: white;font-style: italic;">"Quando terminou a primeira aula e eu vi que tinha aprendido 55 novas palavras, eu não acreditei. A partir disso comecei a respeitar as repetições e vi o poder disso."</p>
-          <p><a class="btn btn-default" href="#" role="button">&lt;</a> <a class="btn btn-default" href="#" role="button">&gt;</a></p>
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 pull-left">
+          <p><a class="btn btn-default arrow-left" role="button" onclick="changeReviewThreeDown()"><i class="fa fa-arrow-left" aria-hidden="true"></i></a> </p>
+        </div>
+        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+          <img class="img-thumbnail img-circle center-block" src="img/lu.jpg" alt="Generic placeholder image" id="reviewImageThreeDown">
+          <h4 class="text-center" id="reviewNameThreeDown">Luciano Krebs, Ponta Grossa - Paraná</h4>
+          <p class="text-center" id="reviewContentThreeDown">"Nunca consegui aprender inglês antes. Comecei várias vezes mas sempre perdia a motivação por ver que eu não avançava. Agora está sendo totalmente diferente. Estou indo muito rápido!"</p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-thumbnail img-circle" src="img/jorge.jpg" alt="Generic placeholder image" >
-          <h4>Jorge Ferreira, Tibagi - Paraná</h4>
-          <p style="color: white;font-style: italic;">"Não sabia absolutamente nada de inglês quando comecei. Acrediteu que isso não era pra mim. Mas após as primeiras aulas, que eu já estava falando várias frases com a pronúncia correta e com um vocabulário legal, percebi que eu era capaz."</p>
-          <p><a class="btn btn-default" href="#" role="button">&lt;</a> <a class="btn btn-default" href="#" role="button">&gt;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-thumbnail img-circle" src="img/lu.jpg" alt="Generic placeholder image">
-          <h4>Luciano Krebs, Ponta Grossa - Paraná</h4>
-          <p style="color: white;font-style: italic;">"Nunca consegui aprender inglês antes. Comecei várias vezes mas sempre perdia a motivação por ver que eu não avançava. Agora está sendo totalmente diferente. Estou indo muito rápido!"</p>
-          <p><a class="btn btn-default" href="#" role="button">&lt;</a> <a class="btn btn-default" href="#" role="button">&gt;</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-    </div> <!-- -->
+        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+          <img class="img-thumbnail img-circle center-block" src="img/lumari.jpg" alt="Generic placeholder image" id="reviewImageThreeUp">
+          <h4 class="text-center" id="reviewNameThreeUp">Mariana Amaral, Ponta Grossa - Paraná</h4>
+          <p class="text-center" id="reviewContentThreeUp">"Quando terminou a primeira aula e eu vi que tinha aprendido 45 novas palavras, eu não acreditei. A partir disso comecei a respeitar as repetições e vi o poder disso."</p>
+        </div>
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 pull-right">
+          <p><a class="btn btn-default to-right" role="button" onclick="changeReviewThreeUp()" id="right-arrow"><i class="fa fa-arrow-right" aria-hidden="true"></i></a></p>
+        </div>
+      </div> <!-- /.row -->
+    </div>
 
 
       <!-- FOOTER -->
@@ -193,5 +193,6 @@
     <script src="js/vendor/holder.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

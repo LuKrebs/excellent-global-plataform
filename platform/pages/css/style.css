@@ -1,0 +1,23 @@
+body {
+  padding-top: 50px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: black;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.starter-template h3, .starter-template p {
+	color: white;
+}
+
+.navbar .container .navbar-header a.navbar-brand img {
+  width: 140px;
+}
+
+.container .row .col-md-12 p {
+	color: white;
+}
+

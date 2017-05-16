@@ -350,7 +350,7 @@ div.maps {
     font-size: 1.3em;
   }
   #aula-experimental .row .col-lg-12 h2 {
-    font-size: 1.3em;
+    font-size: 1.15em;
     font-weight: 900;
   }
 }
@@ -369,13 +369,8 @@ div.maps {
     margin-top: 0;
     margin-bottom: 40px;
   }
-  #aula-experimental .row .col-lg-12 h2 {
-    font-size: 1.6em;
-    font-weight: 900;
-  }
-  #depoimentos .row .col-lg-12 h2 {
-    font-size: 1.5em;
-  }
+
+
 }
 
 @media (min-width: 350px) {
@@ -393,14 +388,25 @@ div.maps {
     margin-left: 0;
   }
   #aula-experimental .row .col-lg-12 h2 {
-    font-size: 1.7em;
+    font-size: 1.5em;
     font-weight: 900;
   }
   #depoimentos .row .col-lg-12 h2 {
-    font-size: 1.7em;
+    font-size: 1.5em;
   }
+
   .carousel .carousel-inner .container .carousel-caption p {
     font-size: 20px;
+  }
+}
+
+@media (min-width: 550px) {
+  #depoimentos .row .col-lg-12 h2 {
+    font-size: 1.7em;
+  }
+  #aula-experimental .row .col-lg-12 h2 {
+    font-size: 1.7em;
+    font-weight: 900;
   }
 }
 

@@ -42,6 +42,12 @@ body {
 -------------------------------------------------- */
 
 /* Carousel base class */
+#myCarousel .carousel-inner .active {
+  background: url('../img/ny.jpg') no-repeat center center fixed;
+  background-size: cover;
+
+}
+
 .carousel {
   height: 500px;
   
@@ -123,26 +129,24 @@ body {
   font-weight: 600;
 }
 
-.marketing .row .col-lg-5 p {
+.marketing .row .col-lg-6 p {
   color: white;
   font-style: italic;
   font-weight: 900;
 }
-.marketing .row .col-lg-5 img {
+.marketing .row .col-lg-6 img {
   width: 150px;
   height: 150px;
 }
-.marketing .row .col-lg-1 a {
+.marketing .row .col-md-6 a {
   background-color: black;
   border: 1px solid rgb(254, 195, 55);
   font-weight: 900;
   font-size: 18px;
   color: rgb(254, 195, 55);
-  margin-top: 3.5em;
-  padding: 15px;
 
 }
-.marketing .row .col-lg-1 a:hover {
+.marketing .row .col-md-6 a:hover {
   background-color: rgb(254, 195, 55);
   border: 1px solid black;
   transition: 0.5s;
@@ -172,7 +176,7 @@ body {
   font-weight: 600;
 }
 
-.marketing .row .col-md-12 p {
+#container-test .row .col-md-6 p {
   color: white;
   font-weight: 900;
   font-size: 1.5em;
@@ -180,48 +184,48 @@ body {
   
 }
 
-.marketing .row .col-md-12 p#ultimo {
+#container-test .row .col-md-6 p#ultimo {
   color: white;
   font-weight: 900;
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin-left: 95px;
 }
 
-.marketing .row .col-md-12 p i {
+#container-test .row .col-md-6 p i {
   color: rgb(254, 195, 55);
   font-size: 1.7em;
   margin-top: 10px;
 }
 
-.marketing .row .col-md-6 form  {
+#container-test .row .col-md-6 form  {
   color: white;
   font-weight: 900;
-  font-size: 1.2em;
+  font-size: 1em;
   border: 3px solid rgb(254, 195, 55);
   padding: 15px;
 }
-.marketing .row .col-md-6 form  input {
+#container-test .row .col-md-6 form  input {
   border-radius: 0;
   border: 2px solid rgb(254, 195, 55);
   background-color: black;
 }
-.marketing .row .col-md-6 form  textarea {
+#container-test .row .col-md-6 form  textarea {
   border-radius: 0;
   border: 2px solid rgb(254, 195, 55);
   background-color: black;
 }
-.marketing .row .col-md-6 form  textarea:focus {
+#container-test .row .col-md-6 form  textarea:focus {
   background-color: rgb(254, 195, 55);
   border: 2px solid black;
   box-shadow: none;
 }
 
-.marketing .row .col-md-6 input:focus {
+#container-test .row .col-md-6 input:focus {
   box-shadow: none;
   background-color: rgb(254, 195, 55);
   border: 2px solid black;
 }
-.marketing .row .col-md-6 input.btn {
+#container-test .row .col-md-6 input.btn {
   margin-top: 20px;
   background-color: rgb(254, 195, 55);
   color: black;
@@ -230,7 +234,7 @@ body {
   border-radius: 0;
   border: 2px solid rgb(254, 195, 55);
 }
-.marketing .row .col-md-6 input.btn:hover {
+#container-test .row .col-md-6 input.btn:hover {
   color: rgb(254, 195, 55);
   background-color: black;
   transition: 0.5s;
@@ -304,6 +308,102 @@ div.maps {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
+@media (min-width: 50px) {
+  .carousel .carousel-inner .container .carousel-caption h1 {
+    font-size: 30px;
+  }
+  .carousel .carousel-inner .container .carousel-caption p {
+    font-size: 15px;
+  }
+  .featurette-heading {
+    margin-top: 60px;
+  }
+  #informations {
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+  #container-test .row .col-md-6 p {
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    margin-left: 0;
+  }
+
+  #container-test .row .col-md-6 p#ultimo {
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    margin-left: 0;
+  }
+  #aula-experimental .row .col-lg-12 h2 {
+    font-size: 1.0em;
+    font-weight: 900;
+  }
+  #depoimentos .row .col-lg-12 h2 {
+    font-size: 1em;
+    font-weight: 900;
+  }
+}
+
+@media (min-width: 250px) {
+  #depoimentos .row .col-lg-12 h2 {
+    font-size: 1.3em;
+  }
+  #aula-experimental .row .col-lg-12 h2 {
+    font-size: 1.3em;
+    font-weight: 900;
+  }
+}
+
+@media (min-width: 310px) {
+  .carousel .carousel-inner .container .carousel-caption h1 {
+    font-size: 50px;
+  }
+  .carousel .carousel-inner .container .carousel-caption p {
+    font-size: 18px;
+  }
+  .featurette-heading {
+    margin-top: 80px;
+  }
+  #informations {
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+  #aula-experimental .row .col-lg-12 h2 {
+    font-size: 1.6em;
+    font-weight: 900;
+  }
+  #depoimentos .row .col-lg-12 h2 {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 350px) {
+  #container-test .row .col-md-6 p {
+    color: white;
+    font-weight: 700;
+    font-size: 1.4em;
+    margin-left: 0;
+  }
+
+  #container-test .row .col-md-6 p#ultimo {
+    color: white;
+    font-weight: 700;
+    font-size: 1.1em;
+    margin-left: 0;
+  }
+  #aula-experimental .row .col-lg-12 h2 {
+    font-size: 1.7em;
+    font-weight: 900;
+  }
+  #depoimentos .row .col-lg-12 h2 {
+    font-size: 1.7em;
+  }
+  .carousel .carousel-inner .container .carousel-caption p {
+    font-size: 20px;
+  }
+}
+
 @media (min-width: 768px) {
   /* Navbar positioning foo */
   .navbar-wrapper {
@@ -332,6 +432,26 @@ div.maps {
 
   .featurette-heading {
     font-size: 50px;
+  }
+  .carousel .carousel-inner .container .carousel-caption h1 {
+    font-size: 60px;
+  }
+  .carousel .carousel-inner .container .carousel-caption p {
+    font-size: 22px;
+  }
+  .featurette-heading {
+    margin-top: 100px;
+  }
+  #informations {
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+  #aula-experimental .row .col-lg-12 h2 {
+    font-size: 2.5em;
+    font-weight: 900;
+  }
+  #depoimentos .row .col-lg-12 h2 {
+    font-size: 2.5em;
   }
 
 }

@@ -32,6 +32,7 @@
     <link href="css/carousel.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 <!-- NAVBAR
@@ -53,9 +54,9 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Metodologia</a></li>
-                <li><a href="#about">Depoimentos</a></li>
-                <li><a href="#contact">Contato</a></li>
+                <li class="active"><a href="#metodologia">Metodologia</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#aula-experimental">Contato</a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Área do aluno <span class="caret"></span></a>
                   <ul class="dropdown-menu">
@@ -77,7 +78,7 @@
       <!-- Indicators -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="img/nycrop.jpg" alt="First slide">
+
           <div class="container">
             <div class="carousel-caption">
               <h1>EXCELLENT GLOBAL TIBAGI</h1>
@@ -93,14 +94,14 @@
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
-    <div class="container marketing">
+    <div class="container marketing" id="metodologia">
       <!-- START THE FEATURETTES -->
       <div class="row featurette">
-        <div class="col-md-7 col-sm-7 test">
+        <div class="col-md-7 test">
           <h2 class="featurette-heading">Focamos em conversação. <span class="text-muted">É assim que se aprende.</span></h2>
-          <p class="lead"> Aprenda desde a primeira aula a pronûncia correta do alfabeto fonêtico americano. Somos especialistas em formar alunos com pronûncia perfeita.</p>
+          <p class="lead"> Aprenda desde a primeira aula a pronúncia correta do alfabeto fonético americano. Somos especialistas em formar alunos com pronúncia perfeita.</p>
         </div>
-        <div class="col-md-5 col-sm-5">
+        <div class="col-md-5">
           <img class="featurette-image img-responsive center-block test" src="img/conversation.jpg" alt="Conversation Excellent Global">
         </div>
       </div>
@@ -121,11 +122,11 @@
       <hr class="featurette-divider">
 
       <div class="row featurette">
-        <div class="col-md-7 col-sm-7 lead-two">
+        <div class="col-md-7 lead-two">
           <h2 class="featurette-heading">Pratique em qualquer lugar, qualquer hora: <span class="text-muted">Plataforma online e exclusiva para alunos</span></h2>
           <p class="lead">Com nossa plataforma online, você é capaz de reassitir aulas, trabalhar conversação online e acessar recursos extras para acelerar seu aprendizado.</p>
         </div>
-        <div class="col-md-5 col-sm-5">
+        <div class="col-md-5">
           <img class="featurette-image img-responsive center-block" src="img/study2.jpg" alt="Generic placeholder image">
         </div>
       </div><!-- /END THE FEATURETTES -->
@@ -135,7 +136,7 @@
     <div class="container-fluid" id="depoimentos">
       <div class="row">
         <div class="col-lg-12">
-          <h2 class="text-center">Veja o que nossos alunos dizem sobre nós</h2>
+          <h2 class="text-center">Depoimentos dos nossos alunos</h2>
         </div>
       </div>
     </div>
@@ -145,23 +146,31 @@
     <div class="container marketing">
       <!-- Three columns of text below the carousel -->
       <div class="row">
-        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 pull-left">
-          <p><a class="btn btn-default arrow-left" role="button" onclick="changeReviewThreeDown()"><i class="fa fa-arrow-left" aria-hidden="true"></i></a> </p>
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 pull-left" style="display: none;">
+          <p><a class="btn btn-default arrow-left" role="button" onclick="changeReviewThreeDown()" id="left-arrow"><i class="fa fa-arrow-left" aria-hidden="true"></i></a> </p>
         </div>
-        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
           <img class="img-thumbnail img-circle center-block" src="img/lu.jpg" alt="Generic placeholder image" id="reviewImageThreeDown">
           <h4 class="text-center" id="reviewNameThreeDown">Luciano Krebs, Ponta Grossa - Paraná</h4>
           <p class="text-center" id="reviewContentThreeDown">"Nunca consegui aprender inglês antes. Comecei várias vezes mas sempre perdia a motivação por ver que eu não avançava. Agora está sendo totalmente diferente. Estou indo muito rápido!"</p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
           <img class="img-thumbnail img-circle center-block" src="img/lumari.jpg" alt="Generic placeholder image" id="reviewImageThreeUp">
           <h4 class="text-center" id="reviewNameThreeUp">Mariana Amaral, Ponta Grossa - Paraná</h4>
           <p class="text-center" id="reviewContentThreeUp">"Quando terminou a primeira aula e eu vi que tinha aprendido 45 novas palavras, eu não acreditei. A partir disso comecei a respeitar as repetições e vi o poder disso."</p>
         </div>
-        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 pull-right">
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 pull-right" style="display: none;">
           <p><a class="btn btn-default to-right" role="button" onclick="changeReviewThreeUp()" id="right-arrow"><i class="fa fa-arrow-right" aria-hidden="true"></i></a></p>
         </div>
       </div> <!-- /.row -->
+      <div class="row" id="teste-responsivo">
+          <div class="col-md-6 col-sm-6 col-xs-6 pull-left">
+            <p><a class="btn btn-default arrow-left" role="button" onclick="changeReviewThreeDown()" id="left-arrow"><i class="fa fa-arrow-left" aria-hidden="true"></i></a></p>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-6  pull-right">
+            <p class="pull-right"><a class="btn btn-default to-rigth" role="button" onclick="changeReviewThreeUp()" id="right-arrow"><i class="fa fa-arrow-right" aria-hidden="true"></i></a></p>
+          </div>
+      </div>
     </div>
 
     <div class="container-fluid" id="aula-experimental">
@@ -174,18 +183,14 @@
 
     <div class="container marketing" id="container-test">
       <div class="row">
-        <div class="col-md-6" id="informations">
-          <div class="row">
-            <div class="col-md-12">
-              <p ><i style="margin-right: 30px;" class="fa fa-map-marker" aria-hidden="true"></i> Rua Cel Frederico Martins, 353 - Tibagi, PR</p>
-              <p ><i style="margin-right: 30px;" class="fa fa-phone" aria-hidden="true"></i> Telefones: (42) 9 9144-1622</p>
-              <p ><i class="fa fa-envelope" style="margin-right: 30px;" aria-hidden="true"></i> contato@egtibagi.com.br</p>
-              <p ><i style="margin-right: 30px;" class="fa fa-clock-o" aria-hidden="true"></i> Horário de Funcionamento:</p>
-              <p  id="ultimo"> Segunda a sexta das 08:00 às 18:30</p>
-            </div>
-          </div>
+        <div class="col-md-6 col-sm-6 text-center" id="informations">
+          <p><i style="margin-right: 30px;" class="fa fa-map-marker" aria-hidden="true"></i> Rua Cel Frederico Martins, 353 - Tibagi, PR</p>
+          <p><i style="margin-right: 30px;" class="fa fa-phone" aria-hidden="true"></i> Telefones: (42) 99144-1622</p>
+          <p><i style="margin-right: 30px;" class="fa fa-envelope" aria-hidden="true"></i> contato@egtibagi.com.br</p>
+          <p><i style="margin-right: 30px;" class="fa fa-clock-o" aria-hidden="true"></i> Horário de Funcionamento:</p>
+          <p id="ultimo"> Segunda à sexta das 08:00hrs às 18:30hrs</p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 col-sm-6">
           <form action="https://formspree.io/contato@egtibagi.com.br" method="POST">
             <div class="row">
               <div class="col-xs-12">
@@ -193,7 +198,7 @@
                 <input class="form-control" type="text" required name="Nome" style="margin-top: 10px;">
               </div>
             </div>
-            <p style="margin-top: 10px;">O que você precisa?</p>
+            <p style="margin-top: 10px;">Como podemos te ajudar?</p>
             <textarea class="form-control" rows="4" name="mensagem" type="text"></textarea>
             <div class="text-center">
               <p style="margin-top: 10px;">Como você prefere que retornemos?</p>

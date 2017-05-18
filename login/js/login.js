@@ -1,8 +1,10 @@
 alunos = [
-	"student01",
+	"luciano",
+	"carol"
 ];
 
 psw = [
+	"12345",
 	"12345"
 ];
 

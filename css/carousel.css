@@ -49,7 +49,7 @@ body {
 }
 
 .carousel {
-  height: 500px;
+  height: 100%;
   
 }
 /* Since positioning the image, we need to help out the caption */
@@ -80,6 +80,24 @@ body {
   font-weight: 900;
   margin-bottom: 100px;
   font-size: 22px;
+}
+
+/*  title container */ 
+#abertura {
+  background-color: rgb(254, 195, 55);
+}
+#abertura h2 {
+  font-weight: 900;
+  color: black;
+  font-size: 50px !important;  
+  padding: 10px auto !important;
+}
+#abertura p {
+  color: black;
+  font-weight: 900;
+  font-size: 22px !important;
+  padding-top: 0;
+  padding-bottom: 10px;  
 }
 
 /* MARKETING CONTENT
@@ -207,22 +225,30 @@ body {
 #container-test .row .col-md-6 form  input {
   border-radius: 0;
   border: 2px solid rgb(254, 195, 55);
-  background-color: black;
+  background-color: white;
+}
+
+#container-test .row .col-md-6 form input[type="text"],  #container-test .row .col-md-6 form input[type="email"], #container-test .row .col-md-6 form textarea  {
+  color: black;
+  font-size: 16px;
+  font-weight: 900;
 }
 #container-test .row .col-md-6 form  textarea {
   border-radius: 0;
   border: 2px solid rgb(254, 195, 55);
-  background-color: black;
+  background-color: white;
 }
 #container-test .row .col-md-6 form  textarea:focus {
-  background-color: rgb(254, 195, 55);
+  /* background-color: rgb(254, 195, 55); */
+  background-color: white;
   border: 2px solid black;
   box-shadow: none;
 }
 
 #container-test .row .col-md-6 input:focus {
   box-shadow: none;
-  background-color: rgb(254, 195, 55);
+  /* background-color: rgb(254, 195, 55); */
+  background-color: white;
   border: 2px solid black;
 }
 #container-test .row .col-md-6 input.btn {
@@ -343,10 +369,17 @@ div.maps {
     font-size: 1em;
     font-weight: 900;
   }
+  #abertura .row .col-lg-12 h2 {
+    font-size: 1em;
+    font-weight: 900;
+  }
 }
 
 @media (min-width: 250px) {
   #depoimentos .row .col-lg-12 h2 {
+    font-size: 1.3em;
+  }
+  #abertura .row .col-lg-12 h2 {
     font-size: 1.3em;
   }
   #aula-experimental .row .col-lg-12 h2 {
@@ -394,6 +427,9 @@ div.maps {
   #depoimentos .row .col-lg-12 h2 {
     font-size: 1.5em;
   }
+  #abertura .row .col-lg-12 h2 {
+    font-size: 1.5em;
+  }
 
   .carousel .carousel-inner .container .carousel-caption p {
     font-size: 20px;
@@ -402,6 +438,9 @@ div.maps {
 
 @media (min-width: 550px) {
   #depoimentos .row .col-lg-12 h2 {
+    font-size: 1.7em;
+  }
+  #abertura .row .col-lg-12 h2 {
     font-size: 1.7em;
   }
   #aula-experimental .row .col-lg-12 h2 {
@@ -457,6 +496,9 @@ div.maps {
     font-weight: 900;
   }
   #depoimentos .row .col-lg-12 h2 {
+    font-size: 2.5em;
+  }
+  #abertura .row .col-lg-12 h2 {
     font-size: 2.5em;
   }
 

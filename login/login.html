@@ -30,13 +30,18 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+
+    <!-- JavaScript and Jquery -->
+    <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="js/login.js"></script>
   </head>
 
   <body>
 
     <div class="container">
 
-      <div class="form-signin">
+      <form class="form-signin">
         <a href="http://egtibagi.com.br" target="_blank"><img src="../img/eg.png" class="img-responsive"></a>
         <label class="sr-only">Email address</label>
         <input id="login" class="form-control" placeholder="Login" autofocus>
@@ -48,14 +53,13 @@
             <input type="checkbox" value="remember-me"> Remember me
           </label>
         </div>
-        <button class="btn btn-lg btn-block" onclick="testLogin()">Sign in</button>
-      </div>
+        <button class="btn btn-lg btn-block">Sign in</button>
+      </form>
 
     </div> <!-- /container -->
 
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
-    <script src="js/login.js"></script>
   </body>
 </html>

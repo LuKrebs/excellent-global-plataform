@@ -35,4 +35,29 @@ body {
 	list-style: none;
 }
 
+.container-test {
+	width: 70%;
+	text-align: center;
+	margin: 0 auto;
+}
+.container-test p {
+	margin-top: 10px;
+}
+.container-test p a {
+	text-decoration: none;
+	color: black;
+	padding: 5px 10px;
+	font-size: 18px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	background-color: rgb(254, 195, 55);
+}
+
+.container-test p a:hover {
+	background-color: black;
+	color: rgb(254,195,55);
+	transition: 0.7s;
+	border: 1px solid rgb(254,195,55);
+}
+
 

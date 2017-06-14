@@ -60,4 +60,55 @@ body {
 	border: 1px solid rgb(254,195,55);
 }
 
+.container .row .col-md-6 form  {
+  color: white;
+  font-weight: 900;
+  font-size: 1em;
+  border: 3px solid rgb(254, 195, 55);
+  padding: 15px;
+}
+.container .row .col-md-6 form  input {
+  border-radius: 0;
+  border: 2px solid rgb(254, 195, 55);
+  background-color: white;
+}
+
+.container .row .col-md-6 form input[type="text"],  .container .row .col-md-6 form input[type="email"], .container .row .col-md-6 form textarea  {
+  color: black;
+  font-size: 16px;
+  font-weight: 900;
+}
+.container .row .col-md-6 form  textarea {
+  border-radius: 0;
+  border: 2px solid rgb(254, 195, 55);
+  background-color: white;
+}
+.container .row .col-md-6 form  textarea:focus {
+  /* background-color: rgb(254, 195, 55); */
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: none;
+}
+
+.container .row .col-md-6 input:focus {
+  box-shadow: none;
+  /* background-color: rgb(254, 195, 55); */
+  background-color: white;
+  border: 2px solid black;
+}
+.container .row .col-md-6 input.btn {
+  margin-top: 20px;
+  background-color: rgb(254, 195, 55);
+  color: black;
+  font-size: 1em;
+  font-weight: 900;
+  border-radius: 0;
+  border: 2px solid rgb(254, 195, 55);
+}
+.container .row .col-md-6 input.btn:hover {
+  color: rgb(254, 195, 55);
+  background-color: black;
+  transition: 0.5s;
+}
+
 

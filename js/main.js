@@ -12,7 +12,7 @@ function changeReviewThreeUp() {
 	var cc = myContentArray[auxTwo];
 
 
-	if (10 > aux) {
+	if (myPicsArray.length > aux) {
 		document.getElementById('reviewImageThreeUp').setAttribute("src", a);
 		document.getElementById('reviewImageThreeDown').setAttribute("src", aa);
 		

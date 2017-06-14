@@ -84,18 +84,21 @@ body {
 
 /*  title container */ 
 #abertura {
-  background-color: rgb(254, 195, 55);
+  background-color: rgb(254, 195, 55) !important;
 }
-#abertura h2 {
-  font-weight: 900;
+#abertura .row {
+ background-color: rgb(254, 195, 55) !important; 
+}
+#abertura .row .col-lg-12 h2 {
+  font-weight: 900 !important;
   color: black;
-  font-size: 50px !important;  
+  font-size: 45px !important;  
   padding: 10px auto !important;
 }
 #abertura p {
   color: black;
   font-weight: 900;
-  font-size: 22px !important;
+  font-size: 20px !important;
   padding-top: 0;
   padding-bottom: 10px;  
 }
@@ -138,19 +141,21 @@ body {
 /* estrutura */ 
 
 #estrutura {
-  background-color: rgb(254, 195, 55);
-  margin-bottom: 40px;
-  margin-top: 60px;
+  background-color: rgb(254, 195, 55) !important;
+  margin-bottom: 40px !important;
+  margin-top: 60px !important;
 }
-#estrutura h2 {
-  color: black;
-  padding: 20px;
-  font-weight: 600;
-  text-align: center;
-  margin: 0 auto;
+#estrutura .row {
+ background-color: rgb(254, 195, 55) !important; 
 }
-.container .row .col-md-4 img {
-  margin-bottom: 20px;
+#estrutura .row .col-lg-12 h2 {
+  color: black !important;
+  padding: 20px !important;
+  font-weight: 600 !important;
+  text-align: center !important;
+}
+#photos .row img {
+  margin-bottom: 20px !important;
 }
 
 /*  depoimentos */

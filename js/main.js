@@ -24,7 +24,6 @@ function changeReviewThreeUp() {
 
 		aux += 2;
 		auxTwo += 2;
-		console.log(aux);
 		return aux;
 	}
 	else {

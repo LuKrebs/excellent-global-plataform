@@ -135,17 +135,36 @@ body {
   margin-top: -90px;
 }
 
+/* estrutura */ 
+
+#estrutura {
+  background-color: rgb(254, 195, 55);
+  margin-bottom: 40px;
+  margin-top: 60px;
+}
+#estrutura h2 {
+  color: black;
+  padding: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 auto;
+}
+.container .row .col-md-4 img {
+  margin-bottom: 20px;
+}
+
 /*  depoimentos */
 #depoimentos {
   background-color: rgb(254, 195, 55);
-  height: 70px;
   margin-bottom: 40px;
   margin-top: 60px;
 }
 #depoimentos .row .col-lg-12 h2 {
   color: black;
   font-weight: 600;
+  padding: 5px;
 }
+
 
 .marketing .row .col-lg-6 p {
   color: white;
@@ -185,13 +204,13 @@ body {
 
 #aula-experimental {
   background-color: rgb(254, 195, 55);
-  height: 70px;
   margin-bottom: 40px;
   margin-top: 60px;
 }
 #aula-experimental .row .col-lg-12 h2 {
   color: black;
   font-weight: 600;
+  padding: 15px;
 }
 
 #container-test .row .col-md-6 p {

@@ -15,5 +15,9 @@ $(document).ready(function() {
 			scrollTop: $("#metodologia").offset().top
 		}, 1500);
 	});
-
+	$("#goToEstrutura").on('click', function() {
+		$('html, body').animate({
+			scrollTop: $("#estrutura").offset().top
+		}, 1500);
+	});
 });

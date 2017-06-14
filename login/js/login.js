@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	var alunos = [
-		"Luciano",
+		"luciano",
 		"carol",
 		"aluno1",
 		"aluno2",

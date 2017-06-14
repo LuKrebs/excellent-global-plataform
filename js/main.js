@@ -12,18 +12,19 @@ function changeReviewThreeUp() {
 	var cc = myContentArray[auxTwo];
 
 
+	if (10 > aux) {
+		document.getElementById('reviewImageThreeUp').setAttribute("src", a);
+		document.getElementById('reviewImageThreeDown').setAttribute("src", aa);
+		
+		document.getElementById('reviewNameThreeDown').innerHTML = bb;
+		document.getElementById('reviewNameThreeUp').innerHTML = b;
+		
+		document.getElementById('reviewContentThreeUp').innerHTML = c;
+		document.getElementById('reviewContentThreeDown').innerHTML = cc;
 
-	document.getElementById('reviewImageThreeUp').setAttribute("src", a);
-	document.getElementById('reviewImageThreeDown').setAttribute("src", aa);
-	
-	document.getElementById('reviewNameThreeDown').innerHTML = bb;
-	document.getElementById('reviewNameThreeUp').innerHTML = b;
-	
-	document.getElementById('reviewContentThreeUp').innerHTML = c;
-	document.getElementById('reviewContentThreeDown').innerHTML = cc;
-	if ((myPicsArray.length - 1) / 2 > aux) {
 		aux += 2;
 		auxTwo += 2;
+		console.log(aux);
 		return aux;
 	}
 	else {
@@ -72,7 +73,11 @@ var myPicsArray = [
 	"img/jorge.jpg",
 	"img/thomas.jpg",
 	"img/fernando.jpg",
-	"img/luana.jpg"
+	"img/luana.jpg",
+	"img/luis.jpg",
+	"img/ingrid.jpg",
+	"img/athena.jpg",
+	"img/carol.jpg"
 ];
 
 var myNameArray = [
@@ -81,7 +86,11 @@ var myNameArray = [
 	"<h4>Jorge Ferreira, Tibagi - Paraná</h4>",
 	"<h4>Thomas Ferreira, Tibagi - Paraná</h4>",
 	"<h4>Fernando Liberato Shibuta - Ponta Grossa, Paraná</h4>",
-	"<h4>Luana Silva - Tibagi, Paraná</h4>"
+	"<h4>Luana Silva - Tibagi, Paraná</h4>",
+	"<h4>Luiz Gabriel Souza Perez</h4>",
+	"<h4>Ingrid Garcia Taques da Fonseca</h4>",
+	"<h4>Athena Faoro Baron</h4>",
+	"<h4>Carolina Fonseca Marcondes</h4>"
 ];
 
 var myContentArray = [
@@ -91,4 +100,8 @@ var myContentArray = [
 	'<p>"Estou muito feliz por ter encontrado um método que me atendesse. Preciso aprender rápido e preciso de algo prático. Aqui encontrei as duas coisas."</p>',
 	'<p>"Uma escola muito profissional e séria. Reputação construída com seriedade. Parabés pelo trabalho. Recomendo."</p>',
 	'<p>"Sempre quis aprender inglês, mas odiava o inglês da escola e achei que aquilo era inglês. Quando tive contato com um método diferente fiquei muito animada por que eu realmente estava aprendendo."</p>',
+	'<p>"Sou muito grato à Excellent Global e aos professores que me auxiliaram durante o tempo que eu estudei na escola, pois isso permitiu com que eu realizasse um dos meus maiores sonhos, o de fazer um intercâmbio, e com certeza o ensino que construí na escola foi uma das maiores forças para que eu encarasse esse momento tão importante da minha vida com mais garra e confiança! Sem dúvidas a Excellent Global é o lugar certo para estudar inglês e entender um pouco da sua própria personalidade. É incrível.”</p>',
+	'<p>“Depois de passar por algumas escolas, meu inglês não evoluía, e eu estava com meu intercâmbio para os Estados Unidos agendado. Foi então que me indicaram a Excellent Global! E foi lá que realmente me senti preparada para esse desafio! Adorei o método!”</p>',
+	'<p>“O mais legal da Excellent Global é o método, você fala inglês sem traduzir palavra por palavra... Muito bom, recomendo, pois me ajudou muito.”</p>',
+	'<p>“O que me levou a buscar a franquia da Excellent Global foram os comentários que recebia de alunos e/ou ex-alunos com relação ao método usado na escola, ele se mostrava realmente eficaz."</p>'
 ];

@@ -17,7 +17,7 @@ $(document).ready(function() {
 	});
 	$("#goToEstrutura").on('click', function() {
 		$('html, body').animate({
-			scrollTop: $("#estrutura").offset().top
+			scrollTop: $("#aula-experimental-test-two").offset().top
 		}, 1500);
 	});
 });
